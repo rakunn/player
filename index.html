@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+
+  <main>
+    <div id="playerInterface" class="component active">
+      <a></a>
+      <a></a>
+      <a></a>
+      <a class='l c'>
+        <img id="prevSong" src="assets/styles/icons/prev.svg">
+      </a>
+      <a class='c'></a>
+      <a class='r c'>
+        <img id="nextSong" src="assets/styles/icons/next.svg">
+      </a>
+      <a></a>
+      <a class='b c'>
+        <img id="play" src="assets/styles/icons/playpause.svg">
+      </a>
+      <a></a>
+    </div>
+
+    <div id="hamburgerContainer" class="component">
+      <a class='hamb'>
+        <div class='line'></div>
+        <div class='line'></div>
+        <div class='line'></div>
+      </a>
+    </div>
+
+    <div id="songStatus" class="component active">
+      <h1 class="timer">00:00</h1>
+      <h3 class="title">Mazurka in D Mayor, B.4</h3>
+      <p class="author">Frédéric Chopin</p>
+    </div>
+
+    <div id="circleProgress" class="component active">
+      <div id="innerCircle" class="active"></div>
+    </div>
+
+    <div id="songList" class="component">
+      <div id="lineProgress"></div>
+    </div>
+
+    <div id="background"></div>
+  </main>
+
+  <footer>
+    <p class="author">
+      <em>Ⓒ 2018 Rafał Bagrowski </em>
+    </p>
+    <p class="credits">
+      this is a submission to the <a href="https://itchallenges.me/">it chalenges.me</a> competition.
+    </p>
+  </footer>
+
+  <script type="text/javascript" src="assets/scripts/lib/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/lib/howler.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/lib/progressbar.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/scripts.js"></script>
+<body>
+</html>
